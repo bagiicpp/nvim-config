@@ -20,6 +20,7 @@ vim.pack.add({
   "https://github.com/stevearc/conform.nvim",
   "https://github.com/lewis6991/gitsigns.nvim",
   "https://github.com/nvim-mini/mini.pairs",
+  "https://github.com/nvim-mini/mini.surround",
 
   -- Autocompletion
   {
@@ -77,3 +78,4 @@ require("config.statusline")
 require("config.formatting")
 require("config.git")
 require("config.pairs")
+require("config.surround")
